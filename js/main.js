@@ -4,9 +4,12 @@ $(document).ready( function() {
     $("#animals").append("<img class='animal' src='images/nyancat.png' alt='Nyan Cat' />");
   });
 
-  $(".animal").click( function() {
-    alert(blah);
-    // $(this).css('visibility', 'hidden');
+  // $(".animal").click( function() {
+  //   alert("blah");
+  // });
+
+  $("#animals").on("click", ".animal", function() {
+    $(this).css('visibility', 'hidden');
   });
 
 });
