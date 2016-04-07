@@ -1,1 +1,3 @@
-alert("IT'S WORKING");
+$(document).ready( function() {
+  alert("STILL WORKING");
+});
