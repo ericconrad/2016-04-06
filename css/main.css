@@ -2,3 +2,7 @@ body {
   background-color: peachpuff;
   color: purple;
 }
+.animal {
+  width: 70px;
+  height: auto;
+}
